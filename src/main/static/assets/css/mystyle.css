@@ -172,10 +172,10 @@ section {
 #about-right p:first-child {
     margin-bottom: 30px;
 }
-#about-bottom {
+.about-bottom {
     margin-top: 60px;
 }
-#about-bottom img {
+.about-bottom img {
    margin: 0 auto;
 }
 
@@ -231,6 +231,40 @@ section {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
 }
+
+/* =============================================
+|   |   |   |   Contact
+================================================ */
+
+/* Contact Left */
+
+#contact-left p {
+    margin: 30px 0 20px 0;
+}
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+ul.office-details li {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 12px;
+}
+ul.office-details li i {
+    font-size: 20px;
+    width: 45px;
+}
+#contact-left ul.social-list li a {
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+}
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+}
+
+
+
 /* =============================================
 |   |   |   |   Navigation
 ================================================ */
