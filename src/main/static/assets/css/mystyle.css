@@ -172,10 +172,10 @@ section {
 #about-right p:first-child {
     margin-bottom: 30px;
 }
-#about-bottom {
+.about-bottom {
     margin-top: 60px;
 }
-#about-bottom img {
+.about-bottom img {
    margin: 0 auto;
 }
 
@@ -188,6 +188,7 @@ section {
 .about-item {
     background-color: #fff;
     padding: 80px 30px;
+    margin-top: 20px;
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
@@ -231,11 +232,81 @@ section {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
 }
+
+/* =============================================
+|   |   |   |   Contact
+================================================ */
+
+/* Contact Left */
+
+#contact-left p {
+    margin: 30px 0 20px 0;
+}
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+ul.office-details li {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 12px;
+}
+ul.office-details li i {
+    font-size: 20px;
+    width: 35px;
+}
+#contact-left ul.social-list li {
+    list-style: none;
+    margin: 10px 15px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s;
+
+}
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+    transition: .5s;
+}
+
+/* Contact Right */
+
+#contact-right {
+    padding: 25px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+#contact-right h4 {
+    font-size: 24px;
+}
+#contact-right p {
+    margin-bottom: 25px;
+}
+
+#contact-right form .form-control {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+#contact-right form textarea.form-control {
+   min-height: 164px;
+}
+
+
+
 /* =============================================
 |   |   |   |   Navigation
 ================================================ */
 .navbar {
     padding: 35px 0 20px 0;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
 }
 .site-nav-wrapper {
     padding: 0 85px;
@@ -256,6 +327,30 @@ ul.navbar-nav > li > a:focus {
     background: none;
     color: #0b98de;
 }
+
+/* White Navigation */
+.white-nav-top {
+    background: #fff;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+.white-nav-top ul.navbar-nav > li > a {
+    color: #212226;
+}
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus{
+    color: #0b98de;
+}
+
+/* Scroll spy active state */
+.white-nav-top ul.navbar-nav > li > a {
+    color: #0b98de;
+    font-weight: 500;
+}
+
+
 #logo {
     font-size: 36px;
 }
