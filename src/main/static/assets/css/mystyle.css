@@ -188,6 +188,7 @@ section {
 .about-item {
     background-color: #fff;
     padding: 80px 30px;
+    margin-top: 20px;
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
@@ -241,30 +242,59 @@ section {
 #contact-left p {
     margin: 30px 0 20px 0;
 }
+#contact-left h1 {
+    position: absolute;
+    top: -95px;
+
+
+}
 ul.office-details {
     list-style: none;
     padding: 0;
 }
 ul.office-details li {
     font-family: "Open Sans", sans-serif;
-    margin-top: 12px;
+    margin-top: 6px;
+    display: -webkit-box;display:
+        -ms-flexbox;display: flex;
 }
 ul.office-details li i {
     font-size: 20px;
-    width: 45px;
+    width: 18px;
+    margin: 0;
+    padding: 0;
+}
+#contact-left ul.social-list li {
+    list-style: none;
+    display: inline-block;
+    background-color: #0b98de;
+    border-radius: 100%;
+    margin-top: 60px;
+    padding: 3px;
 }
 #contact-left ul.social-list li a {
-    color: #212226;
-    border: 1px solid #212226;
+    position:relative;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    margin: 5px 2px;
+
 }
 #contact-left ul.social-list li a:hover {
     color: #fff;
     border-color: transparent;
+    opacity: 0.7;
 }
 
 /* Contact Right */
+
 #contact-right {
+    margin-top: -73px;
+    margin-right: -40px;
     padding: 25px 30px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -276,15 +306,15 @@ ul.office-details li i {
 #contact-right p {
     margin-bottom: 25px;
 }
+
 #contact-right form .form-control {
     font-family: "Open Sans", sans-serif;
     padding: 10px 15px;
     font-size: 12px;
     line-height: 24px;
 }
-#contact-right form-group textarea.form-control {
-    width: 300px;
-    height: 150px;
+#contact-right form textarea.form-control {
+   min-height: 164px;
 }
 
 

@@ -39,7 +39,7 @@ $(function () {
 
         $("html, body").animate({
             scrollTop: $(sectiion_id).offset().top -64
-        },1250, "easeInOutExpo");
+        },1250);
 
     });
 });
