@@ -4,7 +4,7 @@
     Fonts: Raleway & Open Sans
     -------------------------------------------
     Colors:
-        Blue-light:           #0b98de
+        Blue:                 rgba(5,68,164, 0.9)
         Grey:                 #212226
         White-Smoke:          #f4f4f4
         White                 #fff
@@ -82,7 +82,7 @@ section {
     display: inline-block;
 }
 #home-heading h1 span {
-    color: #0b98de;
+    color: rgba(5,68,164,0.9);
     font-weight: 500;
 }
 #home-text p {
@@ -111,8 +111,8 @@ section {
 .btn-home:hover,
 .btn-home:focus {
     color: #fff;
-    background-color: #0b98de;
-    border: 1px solid #0b98de;
+    background-color: rgba(5,68,164,0.9);
+    border: 1px solid rgb(22,22,22);
 }
 /* =============================================
 |   |   |   |   Arrow Down
@@ -131,7 +131,7 @@ section {
 }
 #arrow-down:hover,
 #arrow-down:focus {
-    color: #0b98de;
+    color: rgba(5,68,164,0.9);
 }
 /* =============================================
 |   |   |   |   Content Boxes
@@ -148,7 +148,7 @@ section {
 |   |   |   |   Vertical Headings
 ================================================ */
 .vertical-heading h5 {
-    color: #0b98de;
+    color: rgba(5,68,164,0.9);
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -203,7 +203,7 @@ section {
 .about-item hr {
     width: 45px;
     height: 3px;
-    background-color: #0b98de;
+    background-color: rgba(5,68,164,0.9);
     margin: 0 auto;
     border: none;
 }
@@ -212,7 +212,7 @@ section {
 }
 /* Hover state */
 .about-item:hover {
-    background-color: #0b98de;
+    background-color: rgba(5,68,164,0.9);
 }
 .about-item:hover i,
 .about-item:hover h3,
@@ -240,13 +240,15 @@ section {
 /* Contact Left */
 
 #contact-left p {
-    margin: 30px 0 20px 0;
+    margin: 30px 0 60px 0;
 }
 #contact-left h1 {
     position: absolute;
     top: -95px;
-
-
+    font-family: "Raleway", sans-serif;
+    left: 0;
+    margin: 30px;
+    padding: 0;
 }
 ul.office-details {
     list-style: none;
@@ -254,7 +256,7 @@ ul.office-details {
 }
 ul.office-details li {
     font-family: "Open Sans", sans-serif;
-    margin-top: 6px;
+    margin-top: -40px;
     display: -webkit-box;display:
         -ms-flexbox;display: flex;
 }
@@ -267,22 +269,18 @@ ul.office-details li i {
 #contact-left ul.social-list li {
     list-style: none;
     display: inline-block;
-    background-color: #0b98de;
+    background-color: rgba(5,64,164,0.9);
     border-radius: 100%;
-    margin-top: 60px;
+    margin: 5px auto 0 auto;
     padding: 3px;
 }
 #contact-left ul.social-list li a {
-    position:relative;
     color: #fff;
     text-align: center;
-    text-decoration: none;
     padding: 5px;
     font-size: 20px;
     width: 25px;
-    text-align: center;
     margin: 5px 2px;
-
 }
 #contact-left ul.social-list li a:hover {
     color: #fff;
@@ -295,7 +293,6 @@ ul.office-details li i {
 #contact-right {
     margin-top: -73px;
     margin-right: -40px;
-    border:  3px solid red;
     padding: 25px 30px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -366,7 +363,7 @@ ul.navbar-nav > li > a:focus {
 
 /* Scroll spy active state */
 .white-nav-top ul.navbar-nav > li > a {
-    color: #0b98de;
+    color: rgba(5,68,164,0.9);
     font-weight: 500;
 }
 
