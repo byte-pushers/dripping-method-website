@@ -149,7 +149,7 @@ section {
 ================================================ */
 .vertical-heading h5 {
     color: rgba(5,68,164,0.9);
-    font-size: 14px;
+    font-size: 7px;
     font-weight: 500;
     text-transform: uppercase;
     word-spacing: 9px;
@@ -157,11 +157,11 @@ section {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: relative;
-    top: 60px;
+    top: 65px;
     left: -63px;
 }
 .vertical-heading h2 {
-    margin: 0 0 0 35px;
+    margin: -25px 0 0 35px;
     font-size: 42px;
     font-weight: 100;
     line-height: 45px;
