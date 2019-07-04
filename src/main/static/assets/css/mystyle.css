@@ -218,6 +218,16 @@ section {
 }
 .service-table:hover .btn-blue {
     background: #fff;
+<<<<<<< HEAD
+    color: #212226;
+    border: 1px solid #fff;
+}
+.service-table .btn-blue:hover {
+    background: #212226;
+    color: #fff;
+    border: 1px solid #212226;
+=======
+>>>>>>> 5532950fd3beef4a490352be067e75aeda6ec576
 }
     /* =============================================
     |   |   |   |   Vertical Headings
