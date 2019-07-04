@@ -39,11 +39,7 @@ $(function () {
 
         $("html, body").animate({
             scrollTop: $(sectiion_id).offset().top -64
-<<<<<<< HEAD
         },1250);
-=======
-        },1250, "easeInOutExpo");
->>>>>>> 987a09ede085988aeb94ac633ff0a4e6b48a834d
 
     });
 });
