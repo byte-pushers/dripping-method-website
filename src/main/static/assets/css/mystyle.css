@@ -506,8 +506,8 @@ ul.navbar-nav > li > a:focus {
 |   |   |   |   Footer
 ================================================ */
 footer {
+    height: 50px;
     background: #212226;
-    padding: 30px;
 }
 footer p {
     color: #fff;
@@ -516,6 +516,10 @@ footer p {
 footer p span {
     color: #0b98de;
 }
+.text-center p {
+    padding-top: 15px;
+}
+
 
 
 
