@@ -114,6 +114,30 @@ section {
     background-color: rgba(5,68,164,0.9);
     border: 1px solid rgb(22,22,22);
 }
+.btn-blue {
+    color: #fff;
+    background-color: rgba(5,68,164,0.9);
+    border: 1px solid rgba(5,68,164,0.9);
+}
+.btn-blue:hover,
+.btn-blue:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+.btn-white {
+    color: #212226;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.btn-white:hover,
+.btn-white:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+
 /* =============================================
 |   |   |   |   Arrow Down
 ================================================ */
@@ -140,14 +164,23 @@ section {
     padding: 120px 0;
 }
 .content-box-md {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 /* =============================================
 |   |   |   |   Horizontal Heading
 ================================================ */
+
+.horizontal-heading {
+}
 .horizontal-heading h5 {
     color: rgba(5,68,164,0.9);
 }
+.horizontal-heading h2 {
+
+}
+/* =============================================
+|   |   |   |   Services
+================================================ */
 .service-table {
     -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,
     0.1);box-shadow: 0 0 7px 0 rgba(0,0,0,0.1);
@@ -165,8 +198,8 @@ section {
     margin-bottom: 25px;
 }
 .service-table .service {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     padding: 24px 0;
 }
 .service-table .service h2{
@@ -181,7 +214,7 @@ section {
 }
 .service-table .service h2 span.dollar {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     position: absolute;
     left: -12px;
     top: 3px;
@@ -205,7 +238,9 @@ section {
 .service-table ul.package li i {
     width: 24px;
 }
-.service-table .btn-blue {
+.service-table .btn-blue,
+.service-table.black .btn-white
+{
     width: 90%;
     border-radius: 20px;
 }
@@ -218,20 +253,30 @@ section {
 }
 .service-table:hover .btn-blue {
     background: #fff;
-<<<<<<< HEAD
     color: #212226;
     border: 1px solid #fff;
 }
-.service-table .btn-blue:hover {
+.service-table .btn-blue:hover,
+.service-table .btn-blue:focus{
     background: #212226;
     color: #fff;
-    border: 1px solid #212226;
-=======
->>>>>>> 5532950fd3beef4a490352be067e75aeda6ec576
+    border: 1px solid #212226
 }
-    /* =============================================
-    |   |   |   |   Vertical Headings
-    ================================================ */
+/* Black Service Table */
+.service-table.black {
+    background: #212226;
+    color: #fff;
+}
+.service-table.black .type h4 {
+    color: #fff;
+}
+.service-table.black:hover {
+    background: rgba(5,68,164,0.9);
+}
+
+/* =============================================
+   |   |   |   |   Vertical Headings
+ ================================================ */
 .vertical-heading h5 {
     color: rgba(5,68,164,0.9);
     font-size: 14px;
