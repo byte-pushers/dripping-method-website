@@ -300,21 +300,34 @@ section {
 /* =============================================
 |   |   |   |   About 01
 ================================================ */
+#about {
+    background-color: #f4f4f4;
+}
 #about-right p:first-child {
+    margin-top: -53px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     margin-bottom: 30px;
 }
 .about-bottom {
-    margin-top: 60px;
-    border: 3px solid red;
-
+    margin-top: 40px;
 }
 .about-bottom img {
    margin: 0 auto;
 }
-
 /* =============================================
 |   |   |   |   About 02
 ================================================ */
+#about-left {
+    margin-top: -73px;
+    position: absolute;
+}
+#about-left h1 {
+    position: relative;
+    margin-top: 0;
+}
 #about-02 {
     background-color: #f4f4f4;
 }
@@ -358,25 +371,20 @@ section {
 .about-item:hover i {
     transform: translateY(-20px);
 }
-
-
 /* Smooth transition */
 .about-item {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
 }
-
 /* =============================================
 |   |   |   |   Contact
 ================================================ */
-
 /* Contact Left */
 #contact {
     background-color: #f4f4f4;
 }
 #contact-left {
     margin-top: 73px;
-
 }
 #contact-left p {
     margin: 30px 0 60px 0;
@@ -426,9 +434,7 @@ ul.office-details li i {
     border-color: transparent;
     opacity: 0.7;
 }
-
 /* Contact Right */
-
 #contact-right {
     margin-top: -13px;
     margin-right: -40px;
@@ -443,7 +449,6 @@ ul.office-details li i {
 #contact-right p {
     margin-bottom: 25px;
 }
-
 #contact-right form .form-control {
     font-family: "Open Sans", sans-serif;
     padding: 10px 15px;
@@ -453,9 +458,6 @@ ul.office-details li i {
 #contact-right form textarea.form-control {
    min-height: 164px;
 }
-
-
-
 /* =============================================
 |   |   |   |   Navigation
 ================================================ */
