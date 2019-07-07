@@ -171,12 +171,13 @@ section {
 ================================================ */
 
 .horizontal-heading {
+    margin-top: -50px;
 }
 .horizontal-heading h5 {
-    color: rgba(5,68,164,0.9);
+
 }
 .horizontal-heading h2 {
-
+    color: rgba(5,68,164,0.9);
 }
 /* =============================================
 |   |   |   |   Services
