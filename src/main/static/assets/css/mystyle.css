@@ -286,6 +286,20 @@ section {
 .service-table.black:hover {
     background: rgba(5,68,164,0.9);
 }
+/* =============================================
+|   |   |   |   Services 02
+================================================ */
+.service-tab {
+    border: 3px solid red;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,
+    0.1);box-shadow: 0 0 7px 0 rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+    margin: -100px 15px 100px 15px;
+
+}
 
 /* =============================================
    |   |   |   |   Vertical Headings
