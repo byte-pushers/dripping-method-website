@@ -171,7 +171,8 @@ section {
 ================================================ */
 
 .horizontal-heading {
-    margin-top: -50px;
+    margin-top: -100px;
+
 }
 .horizontal-heading h5 {
 
@@ -189,6 +190,7 @@ section {
     padding: 32px 21px;
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
+    margin: -100px 15px 100px 15px;
 }
 .service-table:hover {
     background: rgba(5,68,164,0.9);
@@ -205,13 +207,15 @@ section {
 }
 .service-table .service h2{
     font-family: "Open Sans", sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 100;
     margin: 0 0 0 8px;
     position: relative;
 }
 .service-table .service h2 span {
     font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    margin: 2px;
 }
 .service-table .service h2 span.dollar {
     font-size: 18px;
@@ -219,6 +223,14 @@ section {
     position: absolute;
     left: -12px;
     top: 3px;
+}
+.service-table .service h2 span.hr {
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    left: 5px;
+    bottom: -20px;
+
 }
 .service-table .service p {
     line-height: normal;
@@ -273,6 +285,20 @@ section {
 }
 .service-table.black:hover {
     background: rgba(5,68,164,0.9);
+}
+/* =============================================
+|   |   |   |   Services 02
+================================================ */
+.service-tab {
+    border: 3px solid red;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,
+    0.1);box-shadow: 0 0 7px 0 rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+    margin: -100px 15px 100px 15px;
+
 }
 
 /* =============================================
