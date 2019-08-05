@@ -71,9 +71,12 @@ section {
 }
 #iv-img {
     position: absolute;
-    top: 70px;
-    right: 10px;
+    bottom: 0;
+    right: 0;
+    border: 3px solid red;
+    clip-path: circle(35%);
 }
+
 #home-content-inner {
     display: table-cell;
     vertical-align: middle;
@@ -146,6 +149,7 @@ section {
 /* =============================================
 |   |   |   |   Arrow Down
 ================================================ */
+/*
 #arrow-down {
     position: absolute;
     left: 50%;
