@@ -66,7 +66,7 @@ section {
 }
 #home-content {
     width: 100%;
-    height: 100%;
+    height: 40%;
     display: table;
 }
 #home-content-inner {
@@ -338,10 +338,14 @@ section {
     margin-bottom: 30px;
 }
 .about-bottom {
-    margin-top: 40px;
+    margin-top: 0;
 }
 .about-bottom img {
    margin: 0 auto;
+    padding-top: 200px;
+    border: 3px solid red;
+    float: right;
+    overflow: hidden;
 }
 /* =============================================
 |   |   |   |   About 02
