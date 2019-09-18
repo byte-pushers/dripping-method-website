@@ -341,10 +341,8 @@ section {
     margin-top: 0;
 }
 .about-bottom img {
-   margin: 0 auto;
-    padding-top: 200px;
-    border: 3px solid red;
-    float: right;
+    margin: 0 auto;
+    opacity: 0.5;
     overflow: hidden;
 }
 /* =============================================
@@ -541,6 +539,9 @@ ul.navbar-nav > li > a:focus {
 
 #logo {
     font-size: 36px;
+    position: absolute;
+    top: 6px;
+    left: 9px;
 }
 
 /* =============================================
