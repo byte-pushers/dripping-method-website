@@ -542,6 +542,7 @@ ul.navbar-nav > li > a:focus {
     position: absolute;
     top: 6px;
     left: 9px;
+    opacity: 0.5;
 }
 
 /* =============================================
