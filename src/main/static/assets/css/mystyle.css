@@ -328,6 +328,7 @@ section {
 ================================================ */
 #about {
     background-color: #f4f4f4;
+    border: 3px solid red;
 }
 #about-right p:first-child {
     margin-top: -53px;
@@ -336,6 +337,9 @@ section {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 30px;
+    border: 3px solid orangered;
+    position: absolute;
+    margin-left: 20px;
 }
 .about-bottom {
     margin-top: 0;
@@ -351,10 +355,12 @@ section {
 #about-left {
     margin-top: -73px;
     position: absolute;
+    border: 3px solid blue;
 }
 #about-left h1 {
     position: relative;
     margin-top: 0;
+    border: 3px solid green;
 }
 #about-02 {
     background-color: #f4f4f4;
