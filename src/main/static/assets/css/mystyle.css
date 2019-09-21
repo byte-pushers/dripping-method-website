@@ -66,7 +66,7 @@ section {
 }
 #home-content {
     width: 100%;
-    height: 100%;
+    height: 40%;
     display: table;
 }
 #home-content-inner {
@@ -338,10 +338,12 @@ section {
     margin-bottom: 30px;
 }
 .about-bottom {
-    margin-top: 40px;
+    margin-top: 0;
 }
 .about-bottom img {
-   margin: 0 auto;
+    margin: 0 auto;
+    opacity: 0.5;
+    overflow: hidden;
 }
 /* =============================================
 |   |   |   |   About 02
@@ -537,6 +539,10 @@ ul.navbar-nav > li > a:focus {
 
 #logo {
     font-size: 36px;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+    opacity: 0.5;
 }
 
 /* =============================================
